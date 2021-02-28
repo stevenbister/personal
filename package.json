@@ -1,0 +1,31 @@
+{
+  "name": "personal",
+  "version": "1.0.0",
+  "description": "Minimal blog build on 11ty.",
+  "main": "index.js",
+  "scripts": {
+    "develop": "eleventy --serve",
+    "lint:js": "eslint \"assets/js/**/*.js\" --quiet; exit 0",
+    "format:js": "prettier --write \"assets/js/**/*.js\"",
+    "lint:scss": "stylelint \"assets/scss/**/*.scss\" --quiet; exit 0",
+    "format:scss": "prettier --write \"assets/scss/**/*.scss\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "stylelint": "^13.11.0",
+    "stylelint-config-idiomatic-order": "^8.1.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-prettier": "^1.2.0",
+    "stylelint-scss": "^3.19.0"
+  }
+}
