@@ -4,7 +4,7 @@
   "description": "Minimal blog build on 11ty.",
   "main": "index.js",
   "scripts": {
-    "develop": "eleventy --serve",
+    "develop": "eleventy --serve; exit 0",
     "lint:js": "eslint \"assets/js/**/*.js\" --quiet; exit 0",
     "format:js": "prettier --write \"assets/js/**/*.js\"",
     "lint:scss": "stylelint \"assets/scss/**/*.scss\" --quiet; exit 0",
